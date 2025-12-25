@@ -69,27 +69,10 @@ type SceneProps = {
 
 function Scene({ dirLight, pointLight, spotLight, selectedRef, boxHelperRef, dirLightAngle }: SceneProps) {
   // TEXTURES
-  const metalTexture = useTexture("/textures/metal.jpg", texture => {
-    texture.wrapS = texture.wrapT = THREE.RepeatWrapping
-    texture.repeat.set(2, 2)
-    texture.rotation = Math.PI / 4
-    texture.center.set(0.5, 0.5)
-  })
-  const woodTexture = useTexture("/textures/wood.jpg", texture => {
-    texture.wrapS = texture.wrapT = THREE.RepeatWrapping
-    texture.repeat.set(3, 1)
-  })
-  const plasterTexture = useTexture("/textures/plaster.jpg", texture => {
-    texture.wrapS = texture.wrapT = THREE.RepeatWrapping
-    texture.repeat.set(1, 2)
-    texture.offset.set(0.25, 0)
-  })
-  const gridTexture = useTexture("/textures/grid.jpg", texture => {
-    texture.wrapS = THREE.RepeatWrapping
-    texture.wrapT = THREE.RepeatWrapping
-    texture.repeat.set(10, 10)
-    texture.anisotropy = 16
-  })
+  const metalTexture = useTexture("/textures/sinica.jpg")
+  const woodTexture = useTexture("/textures/sinica.jpg")
+  const plasterTexture = useTexture("/textures/sinica.jpg")
+  const gridTexture = useTexture("/textures/sinica.jpg")
 
   // CONTROLS
   const keys = useKeyboard()

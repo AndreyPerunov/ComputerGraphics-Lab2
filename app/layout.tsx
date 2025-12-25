@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "2d Modelling"
+  title: "3d Modelling"
 }
 
 export default function RootLayout({
