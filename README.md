@@ -6,6 +6,8 @@
 
 ## Preview
 
+https://computer-graphics-lab2.vercel.app/
+
 <img width="1579" height="783" alt="image" src="https://github.com/user-attachments/assets/11d364e1-4619-4e40-ab49-ec9106960eb7" />
 
 
